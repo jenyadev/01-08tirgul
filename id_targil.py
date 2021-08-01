@@ -20,4 +20,4 @@ while id != '-1':
 
 for k,v in d.items():
     print(f'{k} : {v}')
-© 2021 GitHub, Inc.
+

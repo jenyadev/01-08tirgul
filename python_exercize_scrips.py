@@ -1,3 +1,8 @@
+
+#qustion:Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
+#between 2000 and 3200 (both included).The numbers obtained should be printed in a comma-separated sequence on a single line.
+
+
 l1 = []
 for x in range(2000,3000):
     if (x%7==0)and(x%5!=0):
@@ -5,31 +10,7 @@ for x in range(2000,3000):
 print((','.join(l1)))      #python string join method
 print('=======================')
 '''
-
-print('please enter a text: ')
-inputchar = input('please enter text': )
-if inputchar:
-    string = ''
-    for x in inputchar:
-        if inputchar.index(x)%2 == 0:
-            string += str(x)
-
-print('============================')
-print("you entered:", inputchar)
-print('the result:')
-print(string)
-'''
-
-'''
-print('please enter text:: ')
-y = input()
-for letter in range(ord('a'),ord('z')+1):    #ord() gets the ascii value of a char
-    letter = chr(letter)                      #chr()gets the char of an ascii value
-    count = y.count(letter)
-    if count > 0:
-        print(letter,count, end='')  #makes it write in collum
-        print('\n') #new collum
-'''
+#Please write a program which accepts a string from console and print it in reverse order
 
 word = input('please input a word to reverse it: ')
 for char in range(len(word)-1,-1,-1):
